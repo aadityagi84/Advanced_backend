@@ -27,20 +27,3 @@ EXPOSE 8080
 # Start application
 CMD ["npm", "start"]
 
-
-# and now run a command to build the Docker image and run the container:To build the Docker image and run the container, you can use the following commands in your terminal:
-# 1. Build the Docker image:
-# ```bash
-# docker build -t my-node-app  path/to/your/Dockerfile
-
-
-# ========
-# to run now docker image 
-# docker run -it -p 8080:8080 my-node-app
-# docker run --name my-container my-node-app:latest
-
-# ========================
-# now to go  isnide the running container and check the logs, you can use the following command:
-#  the commands are : docker exec -it <container_id> sh/bash 
-
-# ```
